@@ -1,0 +1,14 @@
+sources_dir: docs
+templates_dir: docs/templates
+repo: https://github.com/PedroVerardo/automatic_documentation
+version: master
+pages:
+  - page: "bubbles.md"
+    source: "python_codes/bubbles.py"
+    functions:
+      - bubbles
+  - page: "matematica.md"
+    source: "python_codes/matematica.py"
+    functions:
+      - soma
+      - subtrai

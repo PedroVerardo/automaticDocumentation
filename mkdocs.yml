@@ -1,0 +1,14 @@
+site_name: Auto Doc
+repo_url: https://github.com/PedroVerardo/automatic_documentation
+site_url: https://example.com/
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+nav:
+    
+    - bubbles.md
+
+    - matematica.md
